@@ -1,0 +1,19 @@
+# Git
+git/
+.gitignore
+
+# Environment Python
+venv/
+env/
+.env
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Build
+build/
+dist/
