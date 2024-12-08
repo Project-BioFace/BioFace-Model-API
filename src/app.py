@@ -351,12 +351,10 @@ class SkinDiseasePrediction(Resource):
         
         try:
             filename = f"{uuid.uuid4().hex}.{image_file.filename.split('.')[-1]}"
-            
-            # Save image to Cloud Storage
             storage_client = storage.Client()
             bucket = storage_client.get_bucket(GCP_STORAGE_BUCKET)
             blob = bucket.blob(f'user_image/{filename}')
-            image_file.seek(0)  # Reset file pointer
+            image_file.seek(0)
             blob.upload_from_file(image_file)
             
             model = load_model()
