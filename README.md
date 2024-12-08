@@ -443,5 +443,5 @@ python src/app.py
   ```
 </details>
 
-### Technology Stack
+## Technology Stack
 <img src="https://drive.google.com/uc?id=1cxSZ45GDDVEohN5RhE0L9TDdI2YIb62B" alt="Features & Tech" width="500">
