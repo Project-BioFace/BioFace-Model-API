@@ -33,6 +33,9 @@ from dotenv import load_dotenv
 import firebase_admin
 from firebase_admin import credentials, auth
 
+# Timestamp
+import pytz
+
 # Load .env 
 load_dotenv()
 
@@ -461,7 +464,8 @@ class PredictionHistory(Resource):
             formatted_predictions = []
             
             for prediction in predictions:
-                timestamp = prediction['timestamp'].strftime("%a, %d %b %Y %H:%M:%S GMT")
+                wib_tz = pytz.timezone('Asia/Jakarta')
+                timestamp = prediction['timestamp'].replace(tzinfo=pytz.UTC).astimezone(wib_tz).strftime("%a, %d %b %Y %H:%M:%S WIB")
                 disease_accuracy = f"{round(prediction['top_prediction_accuracy'], 1)}%"
                 face_disease = prediction['top_prediction'].capitalize()
 
@@ -539,7 +543,8 @@ class PredictionHistoryByID(Resource):
             if not prediction:
                 api.abort(404, f"No prediction found for ID {id}")
 
-            timestamp = prediction['timestamp'].strftime("%a, %d %b %Y %H:%M:%S GMT")
+            wib_tz = pytz.timezone('Asia/Jakarta')
+            timestamp = prediction['timestamp'].replace(tzinfo=pytz.UTC).astimezone(wib_tz).strftime("%a, %d %b %Y %H:%M:%S WIB")
             disease_accuracy = f"{round(prediction['top_prediction_accuracy'], 1)}%"
             face_disease = prediction['top_prediction'].capitalize()
 
