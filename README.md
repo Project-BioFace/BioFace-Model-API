@@ -32,7 +32,7 @@ python src/app.py
 <img src="https://drive.google.com/uc?id=1YiV_-mq8BVe94Z4zQ3iowP18P_IWYt6a" alt="Main Architecthure" width="1000">
 
 ## Architecture Model API
-<img src="https://drive.google.com/uc?id=1YiV_-mq8BVe94Z4zQ3iowP18P_IWYt6a" alt="Architecture" width="1000">
+<img src="https://drive.google.com/uc?id=1CkygSaq5k3sa-lZeUq552gp4o5feZ6cA" alt="Architecture" width="1000">
 
 ## Infrastructure
 - **Deployment**: Google Cloud Run
