@@ -559,7 +559,7 @@ class PredictionHistoryByID(Resource):
                     "disease_accuracy": disease_accuracy,
                     "disease_description": disease_description,
                     "face_disease": face_disease,
-                    "image_url": f"https://storage.googleapis.com/{GCP_STORAGE_BUCKET}/{prediction['filename']}",
+                    "image_url": f"https://storage.googleapis.com/{GCP_STORAGE_BUCKET}/user_image/{prediction['filename']}"
                     "prediction_detail": {
                         "causes": causes,
                         "detail_disease_accuracy": prediction['prediction_details_accuracy'],
