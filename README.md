@@ -28,9 +28,11 @@ pip install -r requirements.txt
 ```bash
 python src/app.py
 ```
+## Main Architecture
+<img src="https://drive.google.com/uc?id=1YiV_-mq8BVe94Z4zQ3iowP18P_IWYt6a" alt="Main Architecthure" width="1000">
 
-## API Architecture
-<img src="https://drive.google.com/uc?id=1CkygSaq5k3sa-lZeUq552gp4o5feZ6cA" alt="Architecture" width="1000">
+## Architecture Model API
+<img src="https://drive.google.com/uc?id=1YiV_-mq8BVe94Z4zQ3iowP18P_IWYt6a" alt="Architecture" width="1000">
 
 ## Infrastructure
 - **Deployment**: Google Cloud Run
@@ -57,7 +59,7 @@ python src/app.py
 | `/history/delete-all` | DELETE | Remove all user history |
 | `/history/{id}` | DELETE | Remove specific history entry |
 
-### Response API
+### Responses API
 <details>
   <summary><h3>Main</h3></summary>
   <img src="https://drive.google.com/uc?id=1i_w7ALiqrod3y6NHIHf8GSv55sU1Dkxe" alt="flask-restx" width="1000">
