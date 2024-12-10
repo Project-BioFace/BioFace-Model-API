@@ -35,9 +35,9 @@ python src/app.py
 <img src="https://drive.google.com/uc?id=1zL6iJezdJAxMl-5yILwl04V_Orr7jPfN" alt="Architecture" width="1000">
 
 ## Infrastructure
-- **Deployment**: Google Cloud Run
-- **Model & Data Storage**: Google Cloud Storage
-- **Repository Image**: Google Artifact Registry
+- **Deployment**: Cloud Run
+- **Model & Data Storage**: Cloud Storage
+- **Repository Image**: Artifact Registry
 - **Data History**: Cloud SQL
 
 ## API Endpoints
