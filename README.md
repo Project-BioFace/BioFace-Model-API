@@ -32,7 +32,7 @@ python src/app.py
 <img src="https://drive.google.com/uc?id=1YiV_-mq8BVe94Z4zQ3iowP18P_IWYt6a" alt="Main Architecthure" width="1000">
 
 ## Bioface Model API Architecture 
-<img src="https://drive.google.com/uc?id=1zL6iJezdJAxMl-5yILwl04V_Orr7jPfN" alt="Architecture" width="1000">
+<img src="https://drive.google.com/uc?id=1zL6iJezdJAxMl-5yILwl04V_Orr7jPfN" alt="Bioface Model API Architecture" width="1000">
 
 ## Infrastructure
 - **Deployment**: Cloud Run
