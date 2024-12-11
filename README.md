@@ -34,6 +34,9 @@ python src/app.py
 ## Bioface Model API Architecture 
 <img src="https://drive.google.com/uc?id=1zL6iJezdJAxMl-5yILwl04V_Orr7jPfN" alt="Bioface Model API Architecture" width="1000">
 
+## Cost Estimation
+`https://cloud.google.com/products/calculator/estimate-preview/CiRkZWU1YTVlYi1lNGIyLTQzYjgtYjRiMy04MTBjYzlkNTYyOTAQAQ==?hl=id`
+
 ## Infrastructure
 - **Deployment**: Cloud Run
 - **Model & Data Storage**: Cloud Storage
@@ -446,4 +449,8 @@ python src/app.py
 </details>
 
 ## Technology Stack
+### Main
+<img src="https://drive.google.com/uc?id=13nawsRnvfqHqpBy-ta2s6SGepwQXQHMq" alt="Features & Tech" width="750">
+
+### Bioface Model API
 <img src="https://drive.google.com/uc?id=1cxSZ45GDDVEohN5RhE0L9TDdI2YIb62B" alt="Features & Tech" width="500">
