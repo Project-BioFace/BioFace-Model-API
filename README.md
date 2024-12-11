@@ -28,10 +28,11 @@ pip install -r requirements.txt
 ```bash
 python src/app.py
 ```
-## Main Architecture
+## Architecture
+### Main
 <img src="https://drive.google.com/uc?id=1YiV_-mq8BVe94Z4zQ3iowP18P_IWYt6a" alt="Main Architecthure" width="1000">
 
-## Bioface Model API Architecture 
+### Bioface Model API 
 <img src="https://drive.google.com/uc?id=1zL6iJezdJAxMl-5yILwl04V_Orr7jPfN" alt="Bioface Model API Architecture" width="1000">
 
 ## Cost Estimation
