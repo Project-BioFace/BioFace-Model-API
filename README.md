@@ -36,7 +36,7 @@ python src/app.py
 <img src="https://drive.google.com/uc?id=1zL6iJezdJAxMl-5yILwl04V_Orr7jPfN" alt="Bioface Model API Architecture" width="1000">
 
 ## Cost Estimation
-`https://cloud.google.com/products/calculator/estimate-preview/CiRkZWU1YTVlYi1lNGIyLTQzYjgtYjRiMy04MTBjYzlkNTYyOTAQAQ==?hl=id`
+`https://cloud.google.com/products/calculator/estimate-preview/CiQ0MmZjNTZmMi02MDBjLTQ4NWEtOGQ3Ny03YmM0MDYzMzAxYWQQAQ==?hl=id`
 
 ## Infrastructure
 - **Deployment**: Cloud Run
